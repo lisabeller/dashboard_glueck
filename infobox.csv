@@ -1,0 +1,48 @@
+name,description,color
+Länder,165 Länder im Datensatz.,#8A2185
+Jahre,Zeitraum von 2005 bis 2023.,#C43BA5
+Glücklichkeitswert,"Datengrundlage: Score 'Life Ladder', weicht vom Score 'Ladder Score' ab 
+Durchschnittlicher Glücklichkeitswert eines Landes, basierend auf verschiedenen Faktoren.
+Teilnehmer werden dazu befragt, wie sie ihr eigenes Leben auf einer Skala von 0 bis 10 bewerten, wobei 0 das schlechteste und 10 das bestmögliche Leben repräsentiert.
+
+Zusätzlich werden folgende Faktoren untersucht, die das Glücksniveau beeinflussen können:
+1. **Cantril-Lebensleiter (Cantril Ladder):**
+   - Frage: „Stellen Sie sich eine Leiter vor, auf der die bestmögliche Lebensqualität, die Sie sich vorstellen können, die oberste Sprosse (10) und die schlechteste die unterste Sprosse (0) ist.
+   - Auf welcher Sprosse der Leiter würden Sie sich persönlich aktuell sehen?“
+   - Diese Frage gibt den Happiness Score an, der als zentraler Indikator im Report verwendet wird.
+
+Neben der subjektiven Lebensbewertung werden folgende Faktoren verwendet, um das Glück eines Landes zu erklären:
+   - BIP pro Kopf
+   - Soziale Unterstützung
+   - Gesunde Lebenserwartung
+   - Freiheit bei Lebensentscheidungen
+   - Großzügigkeit
+   - Wahrnehmung von Korruption
+",#E654B7
+BIP pro Kopf,Wirtschaftlicher Wohlstand hat einen großen Einfluss auf das Glück. Hier wird das Bruttoinlandsprodukt (BIP) pro Kopf als Maßstab verwendet.,#b59231
+Soziale Unterstützung,"Frage: „Wenn Sie in Schwierigkeiten geraten, haben Sie Familie oder Freunde, auf die Sie zählen können?""
+Dies misst das Maß an Unterstützung, das Menschen in Krisenzeiten von ihrem sozialen Umfeld erhalten.",#F5C400
+Gesunde Lebenserwartung,"Die Lebenserwartung wird als Indikator für das Gesundheitsniveau und den Zugang zu Gesundheitsdiensten verwendet.
+Je gesünder die Bevölkerung, desto glücklicher ist sie im Allgemeinen.",#DA8D00
+Freiheit bei Lebensentscheidungen,"Frage: „Sind Sie zufrieden mit der Freiheit, die Sie haben, um wichtige Lebensentscheidungen zu treffen?""
+Dies misst das Gefühl der persönlichen Freiheit und Autonomie.",#D9598E
+Großzügigkeit,"Frage: „Haben Sie im letzten Monat Geld an eine Wohltätigkeitsorganisation gespendet?""
+Dies misst die Neigung der Menschen, anderen zu helfen und an gemeinnützigen Aktivitäten teilzunehmen.",#FFA849
+Wahrnehmung von Korruption,"Frage: „Wie korrupt halten Sie Ihre Regierung und Unternehmen in Ihrem Land?""
+Diese Frage misst das Vertrauen in die Regierung und das Geschäftsleben.
+Ein geringes Maß an Korruption ist stark mit höherem Glück verbunden.",#c9a26b
+Positive Emotionen,"Zum Beispiel wird gefragt, wie oft die Teilnehmer am Vortag Lachen oder Freude erlebt haben.",#A8357E
+Negative Emotionen,"Fragen richten sich danach, wie oft Teilnehmer Gefühle von Stress, Wut oder Sorge empfunden haben.",#E68C2C
+World Happiness Report,"Datenquelle: World Happiness Report 2023 (https://worldhappiness.report/data/)
+
+Datengrundlage'Data for Table 2.1' 
+Zusammenfassung: Die Kernfrage des Berichts misst den subjektiven Happiness Score über die Cantril-Lebensleiter. 
+
+Dieser Score wird mit folgenden Faktoren korreliert:
+   - BIP pro Kopf
+   - Soziale Unterstützung
+   - Lebenserwartung
+   - Persönliche Freiheit
+   - Großzügigkeit
+   - Vertrauen in Institutionen (Korruptionswahrnehmung).
+",#A64A2E
