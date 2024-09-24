@@ -96,7 +96,7 @@ def create_lineplot(glueck,land):
     fig = px.line(glueck_auswahl_land, x="Jahr", 
               y="Glücklichkeitswert", 
               color="Land", 
-              title=f"Glücklichkeitswert in '{land}' über die Jahre {min(glueck["Jahr"])} bis {max(glueck["Jahr"])}",
+              title=f"Glücklichkeitswert in '{land}' über die Jahre {min(glueck['Jahr'])} bis {max(glueck['Jahr'])}",
               template='plotly_white')
 
     fig.update_layout(
@@ -122,7 +122,7 @@ def scatter_bip_glueck(glueck):
                 hover_data={'Land': True, 'Jahr': True})
 
     fig.update_layout(
-            title="Abhängigkeit von BIP pro Kopf zum Glücklichkeitswert",
+            title="Abhängigkeit von BIP pro Kopf zum Glücklichkeitswert(2005-2023)",
             template="plotly_white",
             xaxis_title="BIP pro Kopf", 
             yaxis_title="Glücklichkeitswert",
