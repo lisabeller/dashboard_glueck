@@ -32,7 +32,9 @@ glueck.columns = [
 infobox = pd.read_csv('infobox.csv')
 
 # App erstellen
-app = Dash(__name__)  
+app = Dash(__name__) 
+
+server= app.server
 
 # Visualisierungen
 # 1. Linienplot Dropdown
